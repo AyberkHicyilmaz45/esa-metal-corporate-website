@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GGFXQJRH86"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GGFXQJRH86');
+</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESA Metal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Teko:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="ESAmetal/styles.css" />
+  </head>
+  <body>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">ESA <span>METAL</span></div>
+        <button class="mobile-menu-btn clickable" id="mobileMenuBtn" aria-label="Menüyü aç">
+          <i class="bi bi-list"></i>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="#hero" class="clickable">Anasayfa</a></li>
+            <li class="has-dropdown">
+              <a href="#about" class="clickable">Kurumsal</a>
+              <ul class="dropdown">
+                <li><a href="#about" class="clickable">Hakkımızda</a></li>
+                <li><a href="#insan-kaynaklari" class="clickable">İnsan Kaynakları</a></li>
+                <li><a href="#services" class="clickable">Hizmetler</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a href="#services" class="clickable">Hizmetler</a>
+              <ul class="dropdown">
+                <li><a href="#services" class="clickable">Standart Bağlantı Elemanları</a></li>
+                <li><a href="#services" class="clickable">Ring</a></li>
+                <li><a href="#services" class="clickable">Özel Bağlantı Elemanları</a></li>
+              </ul>
+            </li>
+            <li><a href="#machine-park" class="clickable">Makine Parkuru</a></li>
+            <li><a href="#materials" class="clickable">Şirket Değerlerimiz</a></li>
+            <li><a href="#insan-kaynaklari" class="clickable">Kariyer</a></li>
+            <li><a href="#references" class="clickable">Referanslar</a></li>
+            <li><a href="#contact" class="clickable">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-strip" id="heroStrip">
+          <article class="hero-slide is-active">
+            <img src="ESAmetal/assets/heroslide1.jpg" alt="Üretim tesisi" draggable="false" />
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+              <h1>Üretimde 40 yılllık tecrübe ile sürekli gelişim hedefliyoruz</h1>
+              <p>Güçlü üretim altyapımızla projelere sürdürülebilir kalite kazandırıyoruz.</p>
+              <button class="btn clickable">Detaylı Bilgi</button>
+            </div>
+          </article>
+          <article class="hero-slide">
+            <img src="ESAmetal/assets/heroslide2.jpg" alt="Yüksek kapasite üretim" draggable="false" />
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+              <h1>Yıllık üretim kapasitesi 40 milyon Fittings ve 4 milyon Kompakt Fittings</h1>
+              <p>Seri üretimde hız, hassasiyet ve teslim güvenini aynı çizgide yönetiyoruz.</p>
+              <button class="btn clickable">Kapasite Detayı</button>
+            </div>
+          </article>
+          <article class="hero-slide">
+            <img src="ESAmetal/assets/heroslide3.jpg" alt="Panel radyatör bağlantı elemanları" draggable="false" />
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+              <h1>Panel radyatörleri için bağlantı elemanları</h1>
+              <p>Standart ve özel üretim parçalarla ısı sistemleri üreticilerine değer katıyoruz.</p>
+              <a href="#services" class="btn clickable">Ürünleri İncele</a>
+            </div>
+          </article>
+        </div>
+        <button class="hero-nav hero-prev clickable" id="heroPrev" aria-label="Önceki slayt">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button class="hero-nav hero-next clickable" id="heroNext" aria-label="Sonraki slayt">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+        <div class="hero-dots" id="heroDots" aria-label="Slayt göstergeleri"></div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container about-grid">
+          <div class="about-text">
+            <p class="eyebrow">ESA METAL</p>
+            <h2>Hakkımızda</h2>
+            <p>
+              Isı sistemleri ve metal şekillendirme sektöründe kaliteli üretim, geniş hammadde stoku ve çözüm
+              odaklı hizmet anlayışıyla öncü bir rol üstlenmektedir. Modern üretim tesislerimizdeki güçlü stok
+              kapasitemiz ve optimize edilmiş lojistik süreçlerimiz sayesinde, iş ortaklarımızın projelerinde
+              maksimum zaman ve maliyet avantajı elde etmesini sağlıyoruz.
+            </p>
+            <div class="about-points-card clickable">
+              <ul>
+                <li>Boru kesme</li>
+                <li>Şekillendirme</li>
+                <li>Direnç Kaynak</li>
+                <li>Montaj</li>
+              </ul>
+            </div>
+            <button class="btn clickable">Detaylı Bilgi</button>
+          </div>
+          <div class="about-visual clickable">
+            <img src="ESAmetal/assets/hakkimizda.jpg" alt="Hakkımızda görseli" />
+            <div class="exp-badge">40<br /><span>Yıllık Tecrübe</span></div>
+          </div>
+          <div class="about-stats glass">
+            <div class="stat-item">
+              <strong>Yılda 50.000.000 Adet Fittings</strong>
+              <span>Üretim kapasitemiz ile projelerinize güçlü çözümler sunuyoruz.</span>
+            </div>
+            <div class="stat-item">
+              <strong>Yıllık 5.000.000 Adet Garnitür</strong>
+              <span>Ürün çeşitliliğimizi ve işleme kabiliyetimizi her zaman artırarak devam ediyoruz.</span>
+            </div>
+            <div class="stat-item">
+              <strong>%55 İhracat</strong>
+              <span
+                >Firmamız yıllık iş hacminin %55'i İtalya, Almanya, Fransa, Rusya, Polonya, Hollanda, Ukrayna,
+                Letonya, Çek Cumhuriyeti ve İran'ı içeren uluslararası pazardan, %45'i yurtiçi pazarlardan
+                oluşmaktadır.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">ESA METAL</p>
+              <h2>Hizmetlerimiz</h2>
+            </div>
+            <p>
+              Doğru planlama ve güçlü stok kapasitemizle projelerinize değer katıyoruz.
+            </p>
+          </div>
+          <div class="service-cards">
+            <article class="service-card clickable">
+              <img src="ESAmetal/assets/hizmet1.jpg" alt="Standart Bağlantı Elemanları" />
+              <h3>Standart Bağlantı Elemanları</h3>
+              <p>Tip 10/11-21-22 ve 33 Fittings panel radyatör modellerinde kullanılır.</p>
+            </article>
+            <article class="service-card clickable">
+              <img src="ESAmetal/assets/hizmet2.jpg" alt="Ring" />
+              <h3>Ring</h3>
+              <p>Panel radyatör içerisinde su dağıtımını sağlayan parçadır.</p>
+            </article>
+            <article class="service-card clickable">
+              <img src="ESAmetal/assets/hizmet2.jpg" alt="Özel Bağlantı Elemanları" />
+              <h3>Özel Bağlantı Elemanları</h3>
+              <p>Standart ve dikey 1/2 ve 3/4 panel radyatör modellerinde kullanılır.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="machine-park" class="section">
+        <div class="container">
+          <p class="eyebrow">ESA METAL</p>
+          <h2>Makine Parkuru</h2>
+          <div class="machine-grid">
+            <article class="machine-card clickable">
+              <h3>CNC Boru Kesim Hattı</h3>
+              <p>Yüksek hassasiyetli ölçülendirme ile seri üretime uygun kesim süreçleri.</p>
+            </article>
+            <article class="machine-card clickable">
+              <h3>Otomatik Şekillendirme Presi</h3>
+              <p>Fittings ve kompakt fittings üretiminde stabil kaliteyi destekleyen parkur.</p>
+            </article>
+            <article class="machine-card clickable">
+              <h3>Direnç Kaynak ve Montaj</h3>
+              <p>Yüksek tekrarlanabilirlik ve kalite kontrol destekli montaj entegrasyonu.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="materials" class="materials section">
+        <div class="container materials-grid">
+          <div class="materials-text">
+            <p class="eyebrow">ESA METAL</p>
+            <h2>Şirket Değerlerimiz</h2>
+            <p>
+              Galvanizden paslanmaza kadar geniş yelpazede güvenilir hammadde çözümleri sunuyoruz.
+            </p>
+            <div class="material-list">
+              <button class="material-item clickable active">Müşteri Odaklı Olmak</button>
+              <button class="material-item clickable">Güvenilir ve Dürüst Olmak</button>
+              <button class="material-item clickable">Gofrajlı Alüminyum</button>
+              <button class="material-item clickable">Yenilikçilik</button>
+              <button class="material-item clickable">Kaliteli Üretim ve Hizmet</button>
+              <button class="material-item clickable">Takım Çalışmasına Önem Vermek</button>
+              <button class="material-item clickable">Müşteri Memnuniyeti Sağlamak</button>
+              <button class="material-item clickable">Küresel Standartlar</button>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+
+      <section id="insan-kaynaklari" class="section">
+        <div class="container">
+          <p class="eyebrow">ESA METAL</p>
+          <h2>İnsan Kaynakları</h2>
+          <p>Kariyer başvurularınızı hızlıca iletebilmeniz için form alanı oluşturduk.</p>
+          <form class="career-form">
+            <input type="text" placeholder="İsim" class="clickable first-name" />
+            <input type="text" placeholder="Soyisim" class="clickable last-name" />
+            <input type="email" placeholder="E-posta" class="clickable email-row" />
+            <input type="text" placeholder="Telefon" class="clickable phone-row" />
+            <textarea rows="4" placeholder="Kısa ön yazı" class="clickable"></textarea>
+            <button type="submit" class="btn clickable">Başvuruyu Gönder</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="references" class="references section">
+        <div class="container">
+          <div class="section-head compact">
+            <h2>Çözüm Ortağı Olduğumuz Markalar</h2>
+          </div>
+          <div class="logo-marquee clickable" id="logoMarquee">
+            <div class="logo-track" id="logoTrack">
+              <img src="ESAmetal/assets/logo1.jpg" alt="Logo 1" draggable="false" />
+              <img src="ESAmetal/assets/logo2.jpg" alt="Logo 2" draggable="false" />
+              <img src="ESAmetal/assets/logo3.jpg" alt="Logo 3" draggable="false" />
+              <img src="ESAmetal/assets/logo4.png" alt="Logo 4" draggable="false" />
+              <img src="ESAmetal/assets/logo5.jpg" alt="Logo 5" draggable="false" />
+              <img src="ESAmetal/assets/logo6.png" alt="Logo 6" draggable="false" />
+              <img src="ESAmetal/assets/logo7.png" alt="Logo 7" draggable="false" />
+              <img src="ESAmetal/assets/logo8.png" alt="Logo 8" draggable="false" />
+              <img src="ESAmetal/assets/logo1.jpg" alt="Logo 1" draggable="false" />
+              <img src="ESAmetal/assets/logo2.jpg" alt="Logo 2" draggable="false" />
+              <img src="ESAmetal/assets/logo3.jpg" alt="Logo 3" draggable="false" />
+              <img src="ESAmetal/assets/logo4.png" alt="Logo 4" draggable="false" />
+              <img src="ESAmetal/assets/logo5.jpg" alt="Logo 5" draggable="false" />
+              <img src="ESAmetal/assets/logo6.png" alt="Logo 6" draggable="false" />
+              <img src="ESAmetal/assets/logo7.png" alt="Logo 7" draggable="false" />
+              <img src="ESAmetal/assets/logo8.png" alt="Logo 8" draggable="false" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>MANİSA</h3>
+          <p>Manisa Organize Sanayi Bölgesi X.Kısım Sanayi Bulvarı NO:0 Yunusemre / MANİSA / TR-45000</p>
+        </div>
+        <div>
+          <h3>ESKİŞEHİR</h3>
+          <p>Eskişehir Organize Sanayi Bölgesi X.Kısım Sanayi Bulvarı NO:0 Odunpazarı / ESKİŞEHİR</p>
+        </div>
+      </div>
+      <div class="container footer-contact">
+        <p>Telefon: +90 551 111 22 33</p>
+        <p>E-posta: bilgi@iletisim.com</p>
+      </div>
+      <div class="container footer-bottom-widgets">
+        <div class="footer-widget clickable">
+          <h4>Hızlı İletişim</h4>
+          <p>Projeleriniz için hızlı teklif ve teknik destek sağlayalım.</p>
+        </div>
+        <div class="footer-widget clickable">
+          <h4>Çalışma Saatleri</h4>
+          <p>Pzt - Cmt: 08:30 - 18:30 / Pazar: Kapalı</p>
+        </div>
+        <div class="footer-widget clickable">
+          <h4>Sosyal Medya</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon clickable" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon clickable" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon clickable" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon clickable" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">ESA METAL © 2023</p>
+    </footer>
+
+    <script src="ESAmetal/script.js"></script>
+  </body>
+</html>
