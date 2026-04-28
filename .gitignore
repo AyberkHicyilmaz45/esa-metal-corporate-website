@@ -1,0 +1,5 @@
+config.php
+baglan.php
+db.php
+/vendor/
+.env
