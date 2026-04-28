@@ -16,5 +16,5 @@ A high-performance corporate website designed and developed for the industrial s
 - **Icons & Fonts:** FontAwesome, Google Fonts
 
 ### 📸 Preview
-![Project Preview](https://ayberkhicyilmaz.com/assets/Esametal.png)
+![Project Preview]([https://ayberkhicyilmaz.com/assets/Esametal.png](https://ayberkhicyilmaz.com/img/projects/1777144498_thumb_Esametal.png))
 
