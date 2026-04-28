@@ -2150,22 +2150,18 @@ p {
   }
 
 }
-/* ESAmetal/styles.css dosyasının en altına ekleyin */
 
 @media (max-width: 1150px) {
-    /* Normal menü linklerini gizle */
     .main-nav {
         display: none !important;
     }
 
-    /* Hamburger menü butonunu göster */
     .mobile-menu-btn {
         display: flex !important;
         align-items: center;
         justify-content: center;
     }
 
-    /* Header içindeki boşlukları orantılı tut */
     .nav-wrap {
         display: flex;
         justify-content: space-between;
@@ -2173,7 +2169,6 @@ p {
         padding: 10px 20px;
     }
 
-    /* Logoyu küçük pencerede daha derli toplu yap */
     .brand {
         font-size: 1.5rem;
     }
