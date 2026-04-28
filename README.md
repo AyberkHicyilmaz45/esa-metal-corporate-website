@@ -16,5 +16,5 @@ A high-performance corporate website designed and developed for the industrial s
 - **Icons & Fonts:** FontAwesome, Google Fonts
 
 ### 📸 Preview
-([![Project Preview](ESAmetal/assets/Esametal.png))
+![Project Preview](ESAmetal/assets/Esametal.png)
 
